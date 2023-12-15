@@ -1,0 +1,115 @@
+.navbar-nav .nav-item {
+    margin-right: 2rem;
+}
+
+.navbar-nav a {
+    color: whitesmoke;
+}
+
+.navbar-nav a.active {
+    color: white !important;
+}
+
+.navbar-nav a:hover {
+    color: black;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: rgb(234, 191, 52)
+}
+
+.jumbotron img {
+    width: 20%;
+}
+
+section {
+    padding-top: 5rem;
+    min-height: 100px;
+}
+
+.about {
+    margin-top: -12rem;
+    background-image: url("image/bg-sec-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 4rem;
+}
+
+.about h2,
+.about p,
+.contact h2,
+.contact label {
+    text-shadow: 1px 1px 1px rgba(234, 191, 52, 1);
+}
+
+.project {
+    margin-top: -4.5rem;
+    background-color: #Eac032;
+    /* position: relative; */
+}
+
+.project .card {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    margin-top: -12.8rem;
+    background-image: url("image/bg-sec-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -5rem;
+}
+
+footer {
+    margin-top: -1.5rem;
+}
+
+/* responsive break */
+@media screen and (max-width:576px) {
+    .navbar {
+        position: relative;
+    }
+
+    .jumbotron {
+        padding-top: 2rem;
+    }
+
+    .jumbotron img {
+        width: 40%;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+        /* margin: 0 auto !important; */
+    }
+
+    section {
+        padding-top: inherit;
+    }
+
+    .about {
+        margin-top: -5.5rem;
+        padding-top: 3rem;
+        background-position: auto;
+    }
+
+    .project {
+        margin-top: inherit;
+    }
+
+    .contact {
+        margin-top: -5.5rem;
+        padding-top: 4.5rem;
+        background-position: -12rem 2rem;
+    }
+
+    .contact button {
+        margin: 3rem 9.5rem 0;
+    }
+
+    footer {
+        margin-top: inherit;
+        padding-top: .5rem;
+    }
+}
