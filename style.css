@@ -90,7 +90,7 @@ footer {
     }
 
     .about {
-        /* margin-top: -4rem; */
+        margin-top: -3rem;
         padding-top: 3rem;
         background-position: auto;
     }
@@ -100,13 +100,13 @@ footer {
     }
 
     .contact {
-        /* margin-top: -4rem; */
+        margin-top: -3rem;
         padding-top: 4.5rem;
         background-position: -12rem 2rem;
     }
 
     .contact button {
-        margin: 2rem 5rem 0;
+        margin: 2rem 7rem 0;
     }
 
     footer {
