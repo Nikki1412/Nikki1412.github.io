@@ -92,7 +92,7 @@ footer {
     .about {
         margin-top: -4rem;
         padding-top: 3rem;
-        background-position: auto;
+        background-position: 0;
     }
 
     .project {
