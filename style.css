@@ -29,7 +29,7 @@ section {
 }
 
 .about {
-    margin-top: -12rem;
+    margin-top: -9rem;
     background-image: url("image/bg-sec-2.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -54,7 +54,8 @@ section {
 }
 
 .contact {
-    margin-top: -12.8rem;
+    margin-top: -9rem;
+    /* 10rem */
     background-image: url("image/bg-sec-1.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -89,7 +90,7 @@ footer {
     }
 
     .about {
-        margin-top: -4rem;
+        /* margin-top: -4rem; */
         padding-top: 3rem;
         background-position: auto;
     }
@@ -99,13 +100,13 @@ footer {
     }
 
     .contact {
-        margin-top: -4rem;
+        /* margin-top: -4rem; */
         padding-top: 4.5rem;
         background-position: -12rem 2rem;
     }
 
     .contact button {
-        margin: 2rem 8rem 0;
+        margin: 2rem 5rem 0;
     }
 
     footer {
